@@ -1,0 +1,16 @@
+.dice {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    transform-style: preserve-3d;
+}
+
+.face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border: 5px solid rgb(255, 255, 255);
+    transform-style: preserve-3d;
+    background: linear-gradient(145deg, rgb(221, 219, 216), rgb(255, 255, 255));
+}
