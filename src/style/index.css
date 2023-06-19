@@ -6,10 +6,20 @@
   box-sizing: border-box;
 }
 
-body{
+body {
   height: 100vh;
-  display:flex;
+  display: flex;
   align-items: center;
   justify-content: center;
-  background-color: rgb(155, 155, 253);
+  background: #c393eb;
+}
+
+.container {
+  display: grid;
+  place-items: center;
+  width: 250px;
+  padding: 60px 0 40px;
+  border-radius: 30px;
+  background: #eeeeee;
+  box-shadow: 0 0 20px rgba(0, 0, 0, .1);
 }
