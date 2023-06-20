@@ -1,14 +1,11 @@
 import Dice from "./components/Dice"
-import "./style/button.css";
-import"./style/board.css";
+import "./style/dice.css";
 
 function App() {
   return (
-    <div className="all_board">
-     <Dice/>
-
-     <button className="button"> Roll the Dice! </button>
-     </div>
+    <div className="container">
+      <Dice />
+    </div>
   );
 }
 
