@@ -16,8 +16,9 @@ body {
 }
 
 .container {
-  display: grid;
+  display: flex;
   place-items: center;
+  justify-content: center;
   width: 500px;
   height: 500px;
   padding: 60px;
