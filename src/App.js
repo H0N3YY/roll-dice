@@ -3,7 +3,7 @@ import "./style/dice.css";
 
 function App() {
   return (
-    <div className="all_board">
+    <div className="container">
       <Dice />
     </div>
   );

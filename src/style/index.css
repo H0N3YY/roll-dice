@@ -11,15 +11,18 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #c393eb;
+  background-image: url('../../public/wallpaper.jpg');
+  background-size: 100%;
 }
 
 .container {
   display: grid;
   place-items: center;
-  width: 250px;
-  padding: 60px 0 40px;
+  width: 500px;
+  height: 500px;
+  padding: 60px;
   border-radius: 30px;
-  background: #eeeeee;
+  background: #9169acb4;
   box-shadow: 0 0 20px rgba(0, 0, 0, .1);
+  backdrop-filter: blur(10px);
 }
