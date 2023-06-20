@@ -1,14 +1,15 @@
 import Dice from "./components/Dice"
-import "./style/button.css";
-import"./style/board.css";
+import "./style/dice.css";
+
+import randomDice from './components/Dice'
 
 function App() {
   return (
     <div className="all_board">
-     <Dice/>
+      <Dice />
 
-     <button className="button"> Roll the Dice! </button>
-     </div>
+      <button className="button" onClick={randomDice}> Roll the Dice! </button>
+    </div>
   );
 }
 
